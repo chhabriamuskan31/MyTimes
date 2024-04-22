@@ -1,0 +1,2 @@
+com.news.droiddebo.mytimes.test
+string app_name

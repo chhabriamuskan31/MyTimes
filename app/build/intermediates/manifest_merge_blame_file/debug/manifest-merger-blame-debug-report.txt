@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.news.droiddebo.mytimes"
+4    android:versionCode="5"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <application
+14-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:9:5-64:19
+15        android:name="com.news.droiddebo.mytimes.MyTimesApplication"
+15-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:10:9-43
+16        android:allowBackup="true"
+16-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:11:9-35
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:18:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="true"
+19-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:12:9-41
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity
+26-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:20:9-28:20
+27            android:name="com.news.droiddebo.mytimes.view.MainActivity"
+27-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:20:19-52
+28            android:exported="true"
+28-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:21:13-36
+29            android:theme="@style/AppTheme.NoActionBar" >
+29-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:22:13-56
+30            <intent-filter>
+30-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:29:9-38:20
+37            android:name="com.news.droiddebo.mytimes.view.ArticleActivity"
+37-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:30:13-49
+38            android:label="@string/title_activity_article"
+38-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:31:13-59
+39            android:parentActivityName="com.news.droiddebo.mytimes.view.MainActivity"
+39-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:32:13-60
+40            android:theme="@style/AppTheme.NoActionBar" >
+40-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:33:13-56
+41            <meta-data
+41-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:35:13-37:80
+42                android:name="android.support.PARENT_ACTIVITY"
+42-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:36:17-63
+43                android:value="com.news.droiddebo.mytimes.view.MainActivity" />
+43-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:37:17-77
+44        </activity>
+45        <activity
+45-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:39:9-48:20
+46            android:name="com.news.droiddebo.mytimes.view.AboutActivity"
+46-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:40:13-47
+47            android:label="@string/title_about_the_app"
+47-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:41:13-56
+48            android:parentActivityName="com.news.droiddebo.mytimes.view.MainActivity"
+48-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:42:13-60
+49            android:theme="@style/AppTheme.NoActionBar" >
+49-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:43:13-56
+50            <meta-data
+50-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:35:13-37:80
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:36:17-63
+52                android:value="com.news.droiddebo.mytimes.view.MainActivity" />
+52-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:37:17-77
+53        </activity>
+54        <activity
+54-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:49:9-55:20
+55            android:name="com.news.droiddebo.mytimes.view.WebViewActivity"
+55-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:50:13-49
+56            android:theme="@style/AppTheme.NoActionBar" >
+56-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:51:13-56
+57            <meta-data
+57-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:35:13-37:80
+58                android:name="android.support.PARENT_ACTIVITY"
+58-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:36:17-63
+59                android:value="com.news.droiddebo.mytimes.view.ArticleActivity" />
+59-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:37:17-77
+60        </activity>
+61        <activity
+61-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:56:9-63:20
+62            android:name="com.news.droiddebo.mytimes.view.SearchActivity"
+62-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:56:19-54
+63            android:parentActivityName="com.news.droiddebo.mytimes.view.MainActivity"
+63-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:57:13-60
+64            android:theme="@style/AppThemeSearch" >
+64-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:58:13-50
+65            <meta-data
+65-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:35:13-37:80
+66                android:name="android.support.PARENT_ACTIVITY"
+66-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:36:17-63
+67                android:value="com.news.droiddebo.mytimes.view.MainActivity" />
+67-->D:\NewsProject\News App\app\src\main\AndroidManifest.xml:37:17-77
+68        </activity>
+69
+70        <meta-data
+70-->[com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-3\cba6a7ab147871b83143d9b3780cf8b5\transformed\design-26.1.0\AndroidManifest.xml:26:9-28:38
+71            android:name="android.support.VERSION"
+71-->[com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-3\cba6a7ab147871b83143d9b3780cf8b5\transformed\design-26.1.0\AndroidManifest.xml:27:13-51
+72            android:value="26.1.0" />
+72-->[com.android.support:design:26.1.0] C:\Users\DELL\.gradle\caches\transforms-3\cba6a7ab147871b83143d9b3780cf8b5\transformed\design-26.1.0\AndroidManifest.xml:28:13-35
+73        <meta-data
+73-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9160c68286bde91f382f41b4f734f3c5\transformed\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+74            android:name="android.arch.lifecycle.VERSION"
+74-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9160c68286bde91f382f41b4f734f3c5\transformed\runtime-1.0.0\AndroidManifest.xml:26:13-58
+75            android:value="27.0.0-SNAPSHOT" />
+75-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9160c68286bde91f382f41b4f734f3c5\transformed\runtime-1.0.0\AndroidManifest.xml:27:13-44
+76    </application>
+77
+78</manifest>

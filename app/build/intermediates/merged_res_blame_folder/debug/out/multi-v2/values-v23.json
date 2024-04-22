@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\NewsProject\\News App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "D:\\NewsProject\\News App\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "522"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "107",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "562"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\78afe7d364b9a8143977e8417923bcb2\\transformed\\appcompat-v7-26.1.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,29,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "567,702,837,912,999,1789,2591,2718,2823,2938,3045",
+                        "endLines": "12,13,14,15,28,41,42,43,44,45,46",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "697,832,907,994,1784,2586,2713,2818,2933,3040,3153"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\16804fd83a3611f407b767636c97e617\\transformed\\materialize-1.0.2\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\724dec5df3f9123bf54fdf4aed5bda10\\transformed\\cardview-v7-26.1.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "3158",
+                        "endLines": "49",
+                        "endColumns": "12",
+                        "endOffsets": "3303"
+                    }
+                }
+            ]
+        }
+    ]
+}

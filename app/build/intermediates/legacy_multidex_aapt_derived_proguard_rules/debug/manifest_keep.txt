@@ -1,0 +1,1 @@
+-keep class com.news.droiddebo.mytimes.MyTimesApplication { <init>(); }
